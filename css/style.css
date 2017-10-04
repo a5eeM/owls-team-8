@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -49,7 +50,7 @@ p { /*normal paragraph*/
 
 
 .screenshot {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin-top: 20px;
 }
