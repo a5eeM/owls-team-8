@@ -1,0 +1,30 @@
+.container {
+    width: 65%;
+}
+
+h1 {
+    font-size: 63px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 26.4px; 
+}
+.grad {
+    background: #F85032; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #F85032, #F0B45C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #F85032, #F0B45C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #F85032, #F0B45C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #F85032, #F0B45C); /* Standard syntax */
+}
+header h1 {
+    line-height: 69.3px; 
+    font-weight: 500;
+}
+
+header h1 img {
+    height: 90px;
+    width: auto;
+}
