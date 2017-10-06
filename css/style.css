@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.grad {
+    color: #fff;
+    padding: 5% 9%;
+}
+
+
+/*typography*/
+
+h1 {
+    font-size: 63px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 26.4px;
+}
+
+p {
+    /*normal paragraph*/
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.s-p {
+    /*small paragraph*/
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.grad {
+    background: #F85032;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #F85032, #F0B45C);
+    /* For Safari*/
+    background: -o-linear-gradient(bottom right, #F85032, #F0B45C);
+    /* For Opera */
+    background: -moz-linear-gradient(bottom right, #F85032, #F0B45C);
+    /* For Firefox*/
+    background: linear-gradient(to bottom right, #F85032, #F0B45C);
+    /* Standard syntax */
+}
+
+.grad h1 {
+    line-height: 69.3px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.grad h3{
+    font-weight: 400;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.slackBtn {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.update {
+    padding-top: 2%;
+}
+
+.update a {
+    color: #337ab7;
+}
+
+.update a:hover {
+    color: #23527c;
+}
+
+.title-corgi {
+    display: flex;
+    flex-direction: row;
+}
+
+.corgi {
+    height: 90px;
+    width: auto;
+    align-self: flex-end;
+    padding: 5px;
+}
