@@ -136,6 +136,8 @@ p {
 
 /* first child */
 .f-title-container {
+    display: flex;
+    justify-content: center;
     border: 1px solid wheat;
     width: 200px;
     height: auto;
@@ -143,9 +145,15 @@ p {
 }
 
 .one-word-per-line {
-    word-spacing: 200px;
+    word-spacing: 150px;
 }
 
+.f-title {
+    border: 1px solid salmon;
+    width: 100px;
+    
+
+}
 /* second child */
 .f-list-container {
     border: 1px solid rosybrown;
