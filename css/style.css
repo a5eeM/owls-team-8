@@ -30,9 +30,10 @@ h1 {
 .h1-s {
     font-size: 36px;
     font-weight: 400;
+    line-height: 1.1;
 }
 
-h3 {
+h3, .h3 {
     font-size: 24px;
     font-weight: 400px;
     line-height: 26.4px;
@@ -131,32 +132,27 @@ p {
     display: flex;
     /* align-items: stretch; */
     justify-content: center;
-    border: 1px solid firebrick;
 }
 
 /* first child */
 .f-title-container {
     display: flex;
     justify-content: center;
-    border: 1px solid wheat;
-    width: 200px;
+    width: 180px;
     height: auto;
     text-transform: capitalize;
-}
-
-.one-word-per-line {
-    word-spacing: 150px;
+    border: 2px solid aliceblue;
+    padding: 15px 5px;
 }
 
 .f-title {
-    border: 1px solid salmon;
     width: 100px;
     
 
 }
 /* second child */
 .f-list-container {
-    border: 1px solid rosybrown;
+
 
 }
 
