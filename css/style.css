@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.header, .features {
+.header, .f-grad {
     color: #fff;
     padding: 5% 9%;
 }
@@ -24,6 +24,12 @@ body {
 
 h1 {
     font-size: 63px;
+}
+
+/* h1 small */
+.h1-s {
+    font-size: 36px;
+    font-weight: 400;
 }
 
 h3 {
@@ -107,12 +113,7 @@ p {
 *FEATURES BLOCK BUILT BY DIANA*
 ******************************/
 
-.features {
-    height: 500px;
-    width: auto;
-}
-
-.features {
+.f-grad {
     background: #220BEB;
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, #220BEB, #A4029A);
@@ -124,3 +125,30 @@ p {
     background: linear-gradient(to top right, #220BEB, #A4029A);
     /* Standard syntax */
 }
+
+/* flex container */
+.f-container {
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: center;
+    border: 1px solid firebrick;
+}
+
+/* first child */
+.f-title-container {
+    border: 1px solid wheat;
+    width: 200px;
+    height: auto;
+    text-transform: capitalize;
+}
+
+.one-word-per-line {
+    word-spacing: 200px;
+}
+
+/* second child */
+.f-list-container {
+    border: 1px solid rosybrown;
+
+}
+
