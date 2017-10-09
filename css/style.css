@@ -147,12 +147,23 @@ p {
 
 .f-title {
     width: 100px;
-    
-
 }
+
 /* second child */
 .f-list-container {
-
-
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    text-transform: capitalize;
+    padding: 15px 5px;
 }
 
+.f-list li a {
+    color: red;
+    
+}
+.f-list li span {
+    font-size: 14px;
+    line-height: 1;
+}
