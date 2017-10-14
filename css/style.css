@@ -14,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.header, .f-grad {
+.grad, .f-grad {
     color: #fff;
     padding: 5% 9%;
 }
@@ -51,7 +51,7 @@ p {
     line-height: 20px;
 }
 
-.header{
+.grad{
     background: #F85032;
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, #F85032, #F0B45C);
@@ -64,13 +64,13 @@ p {
     /* Standard syntax */
 }
 
-.header h1 {
+.grad h1 {
     line-height: 69.3px;
     font-weight: 400;
     margin-bottom: 0;
 }
 
-.header h3{
+.grad h3{
     font-weight: 400;
 }
 
@@ -111,7 +111,7 @@ p {
 
 
 /*******************************
-*FEATURES BLOCK BUILT BY DIANA*
+*FOOTER BLOCK BUILT BY DIANA*
 ******************************/
 
 .f-grad {
@@ -139,7 +139,7 @@ p {
     display: flex;
     justify-content: center;
     width: 180px;
-    height: auto;
+    height: 350px;
     text-transform: capitalize;
     border: 2px solid aliceblue;
     padding: 15px 5px;
@@ -147,6 +147,7 @@ p {
 
 .f-title {
     width: 100px;
+    align-self: center;
 }
 
 /* second child */
@@ -154,16 +155,32 @@ p {
     display: flex;
     justify-content: center;
     width: 250px;
-    height: 300px;
+    minx-height: 300px;
     text-transform: capitalize;
-    padding: 15px 5px;
+    padding: 15px 40px;
+
 }
 
-.f-list li a {
-    color: red;
-    
+.f-list li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.2;
 }
-.f-list li span {
+
+.f-list li a:hover{
+    text-decoration: underline;
+}
+
+.lights-on {
     font-size: 14px;
-    line-height: 1;
+}
+
+#special a{
+    color:#00ffff;
+}
+
+#special a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
+    text-decoration-color: #fff;
 }
