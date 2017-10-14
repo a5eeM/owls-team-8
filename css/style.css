@@ -154,8 +154,7 @@ p {
 .f-list-container {
     display: flex;
     justify-content: center;
-    width: 250px;
-    minx-height: 300px;
+    width: 280px;
     text-transform: capitalize;
     padding: 15px 40px;
 
@@ -171,15 +170,17 @@ p {
     text-decoration: underline;
 }
 
-.lights-on {
+#lights-on {
     font-size: 14px;
+    margin-left:-23px;
+    margin-top: -50px;
 }
 
-#special a{
+#special, #special a{
     color:#00ffff;
 }
 
-#special a:hover {
+#special:hover, #special a:hover {
     color: #FF00FF;
     text-decoration: underline;
     text-decoration-color: #fff;
