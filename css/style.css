@@ -109,6 +109,37 @@ p {
     padding: 5px;
 }
 
+/*Features*/
+
+.features{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.features-container{
+    text-align: center;
+    
+}
+
+.features-icon{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+
+.s-p {
+    font-size: 14px;
+    line-height: 20px;
+
+
 
 /*******************************
 *FOOTER BLOCK BUILT BY DIANA*
