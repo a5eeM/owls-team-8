@@ -4,6 +4,9 @@ body {
     padding: 0;
 }
 
+/*****************************
+*HEADER BLOCK BUILT BY DIANA*
+****************************/
 .container {
     width: 80%;
     display: flex;
@@ -11,7 +14,7 @@ body {
     margin: 0 auto;
 }
 
-.grad {
+.grad, .f-grad {
     color: #fff;
     padding: 5% 9%;
 }
@@ -23,7 +26,14 @@ h1 {
     font-size: 63px;
 }
 
-h3 {
+/* h1 small */
+.h1-s {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+h3, .h3 {
     font-size: 24px;
     font-weight: 400px;
     line-height: 26.4px;
@@ -41,7 +51,7 @@ p {
     line-height: 20px;
 }
 
-.grad {
+.grad{
     background: #F85032;
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, #F85032, #F0B45C);
@@ -99,15 +109,14 @@ p {
     padding: 5px;
 }
 
-
 /*Features*/
 
 .features{
     display: flex;
     max-width: 1170px;
     margin: 0 auto;
-    margin-top: 10px; 
-    margin-bottom: 10px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
 }
 
 .features-container{
@@ -129,3 +138,79 @@ h3{
 .s-p {
     font-size: 14px;
     line-height: 20px;
+}
+
+
+/*******************************
+*FOOTER BLOCK BUILT BY DIANA*
+******************************/
+
+.f-grad {
+    background: #220BEB;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #220BEB, #A4029A);
+    /* For Safari*/
+    background: -o-linear-gradient(top right, #220BEB, #A4029A);
+    /* For Opera */
+    background: -moz-linear-gradient(top right, #220BEB, #A4029A);
+    /* For Firefox*/
+    background: linear-gradient(to top right, #220BEB, #A4029A);
+    /* Standard syntax */
+}
+
+/* flex container */
+.f-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* first child */
+.f-title-container {
+    display: flex;
+    justify-content: center;
+    max-width: 140px;
+    padding: 40px;
+    text-transform: capitalize;
+    border: 2px solid aliceblue;
+}
+
+.f-title {
+    align-self: center;
+}
+
+/* second child */
+.f-list-container {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 15px 40px;
+
+}
+
+.f-list li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.2;
+}
+
+.f-list li a:hover{
+    text-decoration: underline;
+}
+
+#lights-on {
+    font-size: 14px;
+    margin-left:-23px;
+    margin-top: -50px;
+}
+
+#special, #special a{
+    color:#00ffff;
+}
+
+#special:hover, #special a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
